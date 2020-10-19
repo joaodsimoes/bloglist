@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{
+  "title": "O meu TERCEIRO blog post",
+  "author": "Joao Simoes",
+  "url": "www.blogspot.com",
+  "likes": "78"
+}
